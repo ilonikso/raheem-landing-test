@@ -1,0 +1,15 @@
+@import "node_modules/normalize.scss/normalize.scss";
+
+@import "fonts.scss";
+@import "variables.scss";
+@import "mixin.scss"; 
+@import "scaffolding.scss";
+
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/banner.scss";
+@import "blocks/slider.scss";
+@import "blocks/swiper.scss";
+@import "blocks/section.scss";
+@import "blocks/service.scss";
+@import "blocks/footer.scss";

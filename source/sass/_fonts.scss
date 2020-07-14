@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Co-Headline Light';
+    src: url('../fonts/CoHeadlineW01Light.ttf') format('truetype'),
+        url('../fonts/CoHeadlineW01Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co-Headline Regular';
+    src: url('../fonts/CoHeadlineW01Regular.woff2') format('woff2'),
+        url('../fonts/CoHeadlineW01Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co-Headline Bold';
+    src: url('../fonts/CoHeadlineW01Bold.woff2') format('woff2'),
+        url('../../fonts/CoHeadlineW01Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sf-Compact Bold';
+    src: url('../fonts/SFCompactDisplay-Bold.woff2') format('woff2'),
+        url('../../fonts/SFCompactDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sf-Compact Regular';
+    src: url('../fonts/SFCompactDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFCompactDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Regular';
+    src: url('../fonts/HelveticaNeueRegular.ttf') format('truetype'),
+    url('../fonts/HelveticaNeueRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Regular Arabic';
+    src: url('../fonts/HelveticaNeueLTArabicRoman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

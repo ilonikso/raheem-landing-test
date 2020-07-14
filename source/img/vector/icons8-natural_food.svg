@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="61.038" viewBox="0 0 69 61.038">
+  <g id="icons8-natural_food" transform="translate(-6 -9)">
+    <rect id="Rectangle_914" data-name="Rectangle 914" width="4" height="2" transform="translate(11 43.886)"/>
+    <rect id="Rectangle_915" data-name="Rectangle 915" width="4" height="2" transform="translate(69 43.886)"/>
+    <rect id="Rectangle_916" data-name="Rectangle 916" width="2" height="30.234" transform="translate(42.18 37.804)"/>
+    <g id="Group_10188" data-name="Group 10188" transform="translate(35.138 33.131)">
+      <path id="Path_7204" data-name="Path 7204" d="M34.707,31.207,39,26.913,37.587,25.5l-3.543,3.543L30.5,25.5l-1.414,1.414,4.3,4.294Z" transform="translate(-25.651 -25.499)"/>
+      <path id="Path_7205" data-name="Path 7205" d="M42.437,31.349l-1.414-1.414-6.979,6.979-6.979-6.979-1.414,1.414,7.642,7.641h1.5Z" transform="translate(-25.651 -25.499)"/>
+    </g>
+    <g id="Group_10189" data-name="Group 10189" transform="translate(6 9)">
+      <path id="Path_7206" data-name="Path 7206" d="M57,9c-4.636,0-8,6.138-8,14.6v9.288a12.279,12.279,0,0,0,2.754,7.995A2.5,2.5,0,0,0,50,43.5V64.731c0,2.927,1.794,5.308,4,5.308s4-2.381,4-5.308v-54.4C58,9.593,57.553,9,57,9ZM56,64.731c0,1.464-.9,2.654-2,2.654s-2-1.19-2-2.654V63.4h2V60.75H52V59.423h2V56.769H52V55.442h2V52.788H52V48.808h4Zm0-18.577H52V43.5h4Zm0-5.418c-2.834-.634-5-3.913-5-7.851V23.6c0-6.237,2.05-10.933,5-11.8Z" transform="translate(11 -9)"/>
+      <path id="Path_7207" data-name="Path 7207" d="M44.3,32.886,36.115,14.023a2.4,2.4,0,0,0-2.1-1.639,2.4,2.4,0,0,0-2.1,1.639L24.066,32.1A24.4,24.4,0,0,0,22,41.07c0,8.375,4.85,15.256,11,15.937V68.038h2V57.009c6.15-.681,11-7.562,11-15.937a21.989,21.989,0,0,0-1.688-8.154A.2.2,0,0,0,44.3,32.886ZM33,54.269c-5.046-.667-9-6.332-9-13.2a21.019,21.019,0,0,1,1.784-7.565L33,16.874Zm2,0V16.814l7.573,17.457A18.346,18.346,0,0,1,44,41.07C44,47.937,40.046,53.6,35,54.269Z" transform="translate(3.714 -9)"/>
+      <path id="Path_7208" data-name="Path 7208" d="M18,24.418c0,3.7-2.243,6.709-5,6.709s-5-3.01-5-6.709V11H6V24.418c0,3.737,1.639,6.961,4,8.473v7.628c-.553,0-1,.6-1,1.342v22.81c0,2.96,1.794,5.367,4,5.367s4-2.407,4-5.367V41.861c0-.742-.447-1.342-1-1.342V32.891c2.361-1.511,4-4.736,4-8.473V11H18ZM12,33.81h2v6.709H12Zm3,30.861c0,1.48-.9,2.684-2,2.684s-2-1.2-2-2.684V63.33h2V60.646H11V59.3h2V56.621H11V55.279h2V52.6H11V48.57h4Zm0-18.785H11V43.2h4Z" transform="translate(-6 -9)"/>
+      <rect id="Rectangle_917" data-name="Rectangle 917" width="2" height="10" transform="translate(8 2)"/>
+      <rect id="Rectangle_918" data-name="Rectangle 918" width="2" height="10" transform="translate(4 2)"/>
+    </g>
+  </g>
+</svg>

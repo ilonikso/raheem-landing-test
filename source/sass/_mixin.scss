@@ -1,0 +1,28 @@
+// font Co-Headline Regular
+
+@mixin ch-r {
+	font-weight: normal;
+	font-family: 'Co-Headline Regular';
+}
+
+// font Co-Headline Bold
+
+@mixin ch-b {
+	font-weight: bold;
+	font-family: 'Co-Headline Bold';
+}
+
+// font SF-Compact Regular
+
+@mixin sf-r {
+	font-weight: normal;
+	font-family: 'Sf-Compact Regular';
+}
+
+// font SF-Compact Bold
+
+@mixin sf-b {
+	font-weight: bold;
+	font-family: 'Sf-Compact Bold';
+}
+

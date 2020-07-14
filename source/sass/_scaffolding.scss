@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+    padding: 0;   
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    font-size: 28px;
+    //max-width: 1920px;
+    margin: 0 auto;
+    color: $blackgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Доступное скрытие элементов
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper{
+    max-width: 1596px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    //outline: 1px solid red;
+}
+
+@media(max-width:767px){
+   .wrapper{
+      padding-left: 20px;
+      padding-right: 20px;
+    } 
+}
+
+

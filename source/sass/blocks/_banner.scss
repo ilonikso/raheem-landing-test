@@ -1,0 +1,227 @@
+.banner{
+    padding-bottom: 182px;
+    position: relative;
+    overflow: hidden;
+
+    &::after{
+        display: block;
+        content: '';
+        position: absolute;
+        left: 97%;
+        bottom: 0;
+        width: 200%;
+        height: 290px;
+        background-image: url('../img/vector/city-background.svg');
+        transform: translateX(-50%);
+        background-repeat: no-repeat;
+        z-index: -2;
+    }
+
+    &__wrapper{
+        display: flex;
+    }
+
+    &__block{
+        width: 50%;
+        margin-top: 168px;
+    }
+
+    &__header{
+        font-family: 'Co-Headline Regular';
+        font-size: 40px;
+        line-height: 1;
+        color: white;
+    }
+
+    &__picture{
+        flex-shrink: 0;
+        margin-top: 35px;
+        position: relative;
+        right: -38px;
+    }
+
+    &__app{
+        display: flex;
+        width: 377px;
+        justify-content: space-between;
+        margin-top: 205px;
+
+        &-item{
+            width: 180px;
+            height: 59px;
+            border-radius: 5px;
+            font-size: 0;
+            display: block;
+            
+            background-image: url(../img/vector/google-icon.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            &:nth-child(2){
+                background-position: right;
+                background-image: url(../img/vector/appstore-icon.svg);
+                height: 61px;
+                position: relative;
+                top: -1px;
+            }
+        }
+    } 
+}
+
+@media(max-width: 1750px){
+    .banner{
+        &__picture{
+            position: relative;
+            right: -100px;
+        }
+    }
+}
+
+@media(max-width: 1440px){
+    .banner{
+        &::after{
+            left: 77%;
+            transform: translateX(-50%) scale(0.85);
+            bottom: -20px;
+        }
+
+        &__picture{
+            position: relative;
+            right: -60px;
+            flex-shrink: 1;
+            top: 20px;
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    .banner{
+        padding-bottom: 170px;
+
+        &::after{
+            left: 77%;
+            transform: translateX(-58%) scale(0.65);
+            bottom: -50px;
+        }
+
+        &__header{
+            line-height: 1.2;
+        }
+
+        &__block{
+            width: 58%;
+        }
+
+        &__picture{
+            top: 50px;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+    .banner{
+
+        &::after{
+            left: 77%;
+            transform: translateX(-60%) scale(0.5);
+            bottom: -80px;
+        }
+
+        &__app{
+            margin-top: 160px;
+        }
+
+        &__picture{
+            top: 110px;
+            right: -70px;
+        }
+
+        &__header{
+            font-size: 36px;
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .banner{
+    
+        &__picture{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 650px){
+    .banner{
+        padding-bottom: 280px;
+
+        &__block{
+            margin-top: 120px;
+            width: 80%;
+        }
+
+        &__app{
+            margin-top: 120px;
+        }
+    }
+}
+
+@media(max-width: 550px){
+    .banner{
+        padding-bottom: 280px;
+
+        &::after{
+            transform: translateX(-60%) scale(.5);
+        }
+
+        &__block{
+            margin-top: 120px;
+            width: 80%;
+        }
+
+        &__app{
+            margin-top: 100px;
+        }
+    }
+}
+
+@media(max-width: 425px){
+    .banner{
+        padding-bottom: 250px;
+
+        &::after{
+            transform: translateX(-60%) scale(.5);
+        }
+
+        &__block{
+            margin-top: 120px;
+            width: 100%;
+        }
+
+        &__app{
+            margin-top: 100px;
+        }
+    }
+}
+
+@media(max-width: 424.5px){
+    .banner{
+        &__block{
+            margin-top: 80px;
+        }
+
+        &__app{
+            flex-direction: column;
+            width: 100%;
+            margin-top: 80px;
+        }
+
+        &__app-item{
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 66px;
+        }
+    }
+}
+
